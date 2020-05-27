@@ -1,0 +1,24 @@
+* {
+    background-color: #aad7bc;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+.Titulo{
+   font-size: 60px;
+}
+
+img {
+    width: 250px;
+}
+
+.fuenteGrande {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(6, 124, 142);
+}
