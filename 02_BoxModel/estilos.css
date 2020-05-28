@@ -1,0 +1,42 @@
+/* * {
+    background-color: teal;
+}  */
+
+h1 {
+    border: 2px black solid ;
+    width: 700px;
+    height: 100px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+p {
+    border: 2px #64e210 solid ;
+    /* width: 150px;
+    height: 150px; */
+    display: inline-block;
+    margin-left: 144px;
+}
+
+a {
+    border: 2px rgb(31, 9, 231) solid ;
+}
+    /* margin-top: ;
+       margin-left 
+       margin-bottom
+       margin-right: ; 
+    */
+    /* padding-left: ;
+    padding-top: ;
+    padding-right: ;
+    padding-bottom: ; */
+.contenedor {
+    border: 2px solid rgb(116, 5, 131);
+    height: 70px;
+        /* top/bottom  r/l */
+    margin: 10px    100px;
+}
+.item{
+         /* t b  r     l */
+    margin: 0 0 10px 750px;
+}
