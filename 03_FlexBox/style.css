@@ -1,0 +1,18 @@
+.padre{
+    width: 600px;
+    height: 500px;
+    border: solid 2px black;
+    /* decimos que usaremos flexbox */
+    display: flex;
+    /* mueve mis elementos horizontalmente */
+    justify-content: center;
+    /* mueve mis elementos verticalmente */
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.hijo{
+    width: 150px;
+    height: 150px;
+    border: 2px solid green;
+}
