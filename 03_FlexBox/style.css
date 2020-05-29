@@ -1,3 +1,9 @@
+body{
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .padre{
     width: 600px;
     height: 500px;
@@ -5,14 +11,48 @@
     /* decimos que usaremos flexbox */
     display: flex;
     /* mueve mis elementos horizontalmente */
-    justify-content: center;
+    justify-content: space-around;
     /* mueve mis elementos verticalmente */
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
 }
 
 .hijo{
-    width: 150px;
-    height: 150px;
+    width: 30%;
+    height: 30%;
     border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nieto{
+    width: 30%;
+    height: 30%;
+    border: solid 2px rgb(96, 4, 133) ;
+}
+
+.madre{
+    width: 600px;
+    height: 500px;
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hija{
+    width: 30%;
+    height: 30%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nieta{
+    width: 30%;
+    height: 30%;
+    border: solid 2px rgb(33, 13, 207) ;
 }
