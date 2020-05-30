@@ -1,0 +1,65 @@
+
+body{
+    display: flex;
+}
+
+.izq {
+    /* border: black 2px solid; */
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #050580;
+
+}
+.izqArriba{
+    /* border: solid 2px black; */
+    width: 90%;
+    height: 40%;
+    background-color: white;
+}
+.izqAbajo{
+    /* border: solid 2px black; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    background-color: white;
+}
+
+.dere{
+    background-color: #050580;
+    /* border: black 2px solid; */
+    width: 650px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.dereArriba {
+    /* border: black 2px solid; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+.dereAbajo {
+    /* border: black 2px solid; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: white;
+}
+
+.rojo{
+    /* border: 2px solid red; */
+    height: 80%;
+    width: 90%;
+    background-color: rgb(172, 18, 18);
+}
