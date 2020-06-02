@@ -9,8 +9,6 @@
 // }
 
 var num = 10
-
-
 //   ---------------Operadores relaciones ---------------------
 //   < menor que
 //   <= menor igual
@@ -22,11 +20,11 @@ var num = 10
 
 
 
-if(num !==  10){
-    // console.log('Es verdad')
-}else{
-    // console.log('Es falso')
-}
+// if(num !==  10){
+//     console.log('Es verdad')
+// }else{
+//     console.log('Es falso')
+// }
 
 // ------------------------- Challenge 1-------------------
 // Investigar que es el MODULO -> % <-
@@ -50,3 +48,10 @@ if(numReal % 2 === 0){
 //Decir si el usuario puede pasar o no
 //Password : perritoSalchicha123
 
+var login = prompt('Ingresa tu contraseña')
+
+if(login === 'perritoSalchicha123'){
+    console.log('Bienvenido!')
+}else{
+    console.log('password incorrecta')
+}
