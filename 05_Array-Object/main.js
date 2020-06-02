@@ -8,7 +8,7 @@ colores[5] = 'verde'
 // colores[2] = 'blanco'
 
 
-// console.log(colores)
+console.log(colores)
 // console.log(colores[2])
 
 //metodo de arreglos
@@ -17,13 +17,13 @@ colores[5] = 'verde'
 
 colores.push('gris', 'dasdfasf')
 
-// console.log(colores)
+console.log(colores)
 
 // .pop() -> borra nuesto ultimo valor
 
 colores.pop()
 
-// console.log(colores)
+console.log(colores)
 
 // .splice -> borra elementos especificos
 
@@ -56,8 +56,18 @@ var persona = {
 
 }
 
-console.log(persona)
-console.log(persona.nombre)
-console.log(persona.password)
-console.log(persona.musica[1])
-console.log(persona.peliculas.romanticas.comediasRomanticas[1])
+// console.log(persona)
+// console.log(persona.nombre)
+// console.log(persona.password)
+// console.log(persona.musica[1])
+// console.log(persona.peliculas.romanticas.comediasRomanticas[1])
+
+//No tan recomendable
+// var dulces = [
+//     'cajeta',
+//     {
+//        picantes: 'pika fresa' 
+//     }
+
+// ]
+// console.log(dulces[1].picantes)
