@@ -1,0 +1,15 @@
+
+
+.my-color{
+    background-color: violet;
+    border: transparent;
+}
+
+.my-color:hover{
+    background-color: turquoise;
+}
+
+.my-image{
+    width: 500px;
+    height: 300px;
+}

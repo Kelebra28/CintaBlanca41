@@ -71,3 +71,4 @@ var persona = {
 
 // ]
 // console.log(dulces[1].picantes)
+
