@@ -1,0 +1,14 @@
+.my-container{
+    border: black 3px solid;
+    height: 700px;
+}
+
+.my-row{
+    border: rgb(4, 23, 133) 3px solid;
+    height: 350px;
+}
+
+.my-col{
+    border: rgb(133, 8, 4) 3px solid;
+    height: 100px;
+}
