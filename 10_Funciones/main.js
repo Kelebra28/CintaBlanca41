@@ -68,5 +68,6 @@ const areaTriangulo = (b, h) => {
 
 // console.log(areaTriangulo(50, 60))
 
+//                    x              ,      y
 console.log(sum(areaRectangulo(10, 5), areaTriangulo(50, 60)))
 
