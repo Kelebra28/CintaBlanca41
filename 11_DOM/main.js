@@ -15,14 +15,17 @@ const cambio = () => {
 titulo.innerHTML = 'Titulo cambiado desde JS'
 texto.innerHTML = 'Texto cambiado desde JS'
 
-
 // .value es el valor del input, en otras palabras lo que el usuario ingresa
     console.log(pregunta.value)
     respuesta.innerHTML = pregunta.value
-
 }
+
+
 // addEventListener escucha los eventos de HTML
 //El primer parametro es el evento
 //Segundo parameto es la funcion que queremos ejecutar
 boton.addEventListener('click', cambio)
+
+
+
 
