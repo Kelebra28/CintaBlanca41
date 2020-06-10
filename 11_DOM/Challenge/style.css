@@ -1,0 +1,13 @@
+
+.tarjeta {
+    border: black solid 2px;
+    background-color: slateblue;
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.none{
+    display: none;
+}
