@@ -34,7 +34,7 @@ const ordenar = () => {
 
     let pregutaPinia = Ppinia.value
     let piniaMinus = pregutaPinia.toLowerCase()
-    
+
         // console.log(piniaMinius)
 
     if(piniaMinus === 'con'){
