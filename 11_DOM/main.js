@@ -13,6 +13,9 @@ titulo.innerHTML = 'Titulo cambiado desde JS'
 texto.innerHTML = 'Texto cambiado desde JS'
 
 }
+// addEventListener escucha los eventos de HTML
+//El primer parametro es el evento
+//Segundo parameto es la funcion que queremos ejecutar
 
 boton.addEventListener('click', cambio)
 
