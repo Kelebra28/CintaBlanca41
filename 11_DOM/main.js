@@ -26,6 +26,7 @@ texto.innerHTML = 'Texto cambiado desde JS'
 //Segundo parameto es la funcion que queremos ejecutar
 boton.addEventListener('click', cambio)
 
+//Saludos desde la terminal si o no compa!
 
 
 
